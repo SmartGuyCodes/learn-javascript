@@ -29,3 +29,41 @@ function lowerName(name){
 }
 console.log(lowerName('Charles'));
 console.log(lowerName('Smart Guy WHo Codes'));
+
+function getFirstCharacter(name){
+	return name[0];
+}
+console.log(getFirstCharacter("Nairobi"));
+console.log(getFirstCharacter('charles'));
+
+function getLastCharacter(name){
+	return  name[name.length - 1];
+}
+console.log(getLastCharacter("Ricline"));
+console.log(getLastCharacter("Amelia"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

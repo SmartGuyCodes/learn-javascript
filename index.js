@@ -48,6 +48,33 @@ function skipFirstCharacter(text){
 console.log(skipFirstCharacter("Xcode"));
 console.log(skipFirstCharacter("Hello"));
 
+//2a. String Concatenation
+function concatInitials(firstNameInitial, lastNameInitial){
+	return firstNameInitial + lastNameInitial;
+}
+console.log(concatInitials("S", "G"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

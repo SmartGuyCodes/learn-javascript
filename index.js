@@ -62,6 +62,36 @@ function concatInitials(firstNameInitial, lastNameInitial){
 console.log(concatInitials("S", "G"));
 
 
+//Project 2
+//Complete the function getDescription such that it returns the first 10
+//characters of the text parameter it receives followed by an ellipsis. 
+//An ellipsis is the dot character written 3 times: ...
+function getDesc(text){
+	let str = text.substring(0, 10);
+	return str + "..."
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

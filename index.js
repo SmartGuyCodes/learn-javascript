@@ -48,6 +48,13 @@ function skipFirstCharacter(text){
 console.log(skipFirstCharacter("Xcode"));
 console.log(skipFirstCharacter("Hello"));
 
+//Project 1
+//Complete the function getDescription such that it
+//returns the first 10 characters of the text parameter it receives.
+function getDescription(text){
+	return text.substring(0, 10);
+}
+
 //2a. String Concatenation
 function concatInitials(firstNameInitial, lastNameInitial){
 	return firstNameInitial + lastNameInitial;

@@ -72,6 +72,47 @@ function getDesc(text){
 }
 
 
+//EcmaScript2015
+//Arrows and Lexical This : Arrows are a function shorthand using the => syntax. They  support both expression and statement bodies.
+//Unlike functions, arrows share the same lexical this as their surrounding code. If an arrow is inside another function, it shares the 
+//"arguments" variable of its parent function.
+
+//Expression bodies
+//var odds = evens.map(v => v + 1);
+//var nums = evens.map((v, 1) => v + 1);
+
+//statement bodies
+//nums.foreach({
+//    if(v % 5 === 0)
+//      fives.push(v);
+//});
+
+//Lexical this
+//var evans = {
+//	_name: "Evans",
+//	_friends:[],
+////	printFriends(){
+//	  this._friends.forEach(f =>
+//	  	console.log(this._name + " knows" + f));
+//	}
+//};
+
+//Lexical arguments
+function square(){
+	let example = () => {
+		let numbers = [];
+		for(let number of arguments){
+			numbers.push(number * number);
+		}
+		return numbers;
+	}
+
+	return example();
+}
+
+console.log(square(2, 4, 7.5, 8, 11.5, 21));
+
+
 
 
 
